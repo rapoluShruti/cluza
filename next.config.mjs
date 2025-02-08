@@ -16,6 +16,10 @@ const nextConfig = {
             key: "Cross-Origin-Embedder-Policy",
             value: "credentialless",
           },
+          {
+            key: "Permissions-Policy",
+            value: "interest-cohort=()", // Disable FLoC tracking
+          },
         ],
       },
     ];
