@@ -24,6 +24,8 @@ const nextConfig = {
       },
     ];
   },
+  reactStrictMode: true, // Ensure React strict mode is enabled
+  swcMinify: true, // Improve performance in production
 };
 
 export default nextConfig;
