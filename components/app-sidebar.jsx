@@ -18,7 +18,7 @@ export function AppSidebar() {
         <Image src={"/logo.svg"} width={30} height={30} alt="logos" />
         <Button>
           <MessageCircleCode />
-          Start New Chats
+          Start New Chat
         </Button>
       </SidebarHeader>
       <SidebarContent className="p-5">
